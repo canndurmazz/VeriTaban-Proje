@@ -19,22 +19,22 @@ namespace VeriTabanıProje
         
         private void load_Load(object sender, EventArgs e)
         {
+            // GÖREBİLİYOR MUSUN
             timer1.Start();
         }
         int sayac = 0;
         private void timer1_Tick(object sender, EventArgs e)
         {
-            cubuk.Value = sayac;
-            sayac++;
             if (sayac == 100)
             {
                 timer1.Stop();
-                MessageBox.Show("Süreniz Doldu !", "BİTTİ !", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                
+                MessageBox.Show("Süreniz Doldu !", "BİTTİ !", MessageBoxButtons.OK, MessageBoxIcon.Information);               
                 this.Close();
                 Application.Exit();
             }
-          
+            cubuk.Value = sayac;
+            sayac++;
+
 
         }
     }

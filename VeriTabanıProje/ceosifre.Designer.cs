@@ -40,6 +40,7 @@ namespace VeriTabanıProje
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label1.Location = new System.Drawing.Point(22, 29);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(29, 17);
@@ -49,6 +50,7 @@ namespace VeriTabanıProje
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
             this.label2.Location = new System.Drawing.Point(6, 61);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(45, 17);
@@ -71,9 +73,11 @@ namespace VeriTabanıProje
             // 
             // button1
             // 
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.button1.Location = new System.Drawing.Point(153, 89);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.Size = new System.Drawing.Size(75, 31);
             this.button1.TabIndex = 4;
             this.button1.Text = "Giriş";
             this.button1.UseVisualStyleBackColor = true;
@@ -81,9 +85,11 @@ namespace VeriTabanıProje
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(9, 89);
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.button2.Location = new System.Drawing.Point(12, 89);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.Size = new System.Drawing.Size(75, 31);
             this.button2.TabIndex = 11;
             this.button2.Text = "Çıkış";
             this.button2.UseVisualStyleBackColor = true;
@@ -93,6 +99,7 @@ namespace VeriTabanıProje
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(257, 124);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);

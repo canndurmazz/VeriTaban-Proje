@@ -33,6 +33,7 @@ namespace VeriTabanıProje
                 
                 this.Close();
                 Application.Exit();
+                //Merve
             }
           
 

@@ -55,6 +55,7 @@ namespace VeriTabanıProje
         {
             this.Close();
             Application.Exit();
+            //deneme
         }
 
         private void button3_Click_1(object sender, EventArgs e)

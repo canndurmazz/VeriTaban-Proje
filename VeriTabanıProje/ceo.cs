@@ -44,13 +44,13 @@ namespace VeriTabanıProje
 
         private void button8_Click(object sender, EventArgs e)
         {
-            button8.BackColor = Color.Silver;
+            solpanel.BackColor = Color.Silver;
             üstpanel.BackColor = Color.Silver;
          }
 
         private void button17_Click(object sender, EventArgs e)
         {
-            button17.BackColor = Color.Gray;
+            solpanel.BackColor = Color.Gray;
             üstpanel.BackColor = Color.Gray;
         }
 
@@ -59,49 +59,49 @@ namespace VeriTabanıProje
 
         private void button1_Click(object sender, EventArgs e)
         {
-            button1.BackColor = Color.LightGray;
+            solpanel.BackColor = Color.LightGray;
             üstpanel.BackColor = Color.LightGray;
         }
 
         private void button19_Click(object sender, EventArgs e)
         {
-            button19.BackColor = Color.DarkGray;
+            solpanel.BackColor = Color.DarkGray;
             üstpanel.BackColor = Color.DarkGray;
         }
 
         private void button20_Click(object sender, EventArgs e)
         {
-            button20.BackColor = Color.LightGray;
+            solpanel.BackColor = Color.LightGray;
             üstpanel.BackColor = Color.LightGray;
         }
 
         private void button21_Click(object sender, EventArgs e)
         {
-            button21.BackColor = Color.Gray;
+            solpanel.BackColor = Color.Gray;
             üstpanel.BackColor = Color.Gray;
         }
 
         private void button22_Click(object sender, EventArgs e)
         {
-            button22.BackColor = Color.DarkGray;
+            solpanel.BackColor = Color.DarkGray;
             üstpanel.BackColor = Color.DarkGray;
         }
 
         private void button23_Click(object sender, EventArgs e)
         {
-            button23.BackColor = Color.Gray;
+            solpanel.BackColor = Color.Gray;
             üstpanel.BackColor = Color.Gray;
         }
 
         private void button24_Click(object sender, EventArgs e)
         {
-            button24.BackColor = Color.LightGray; 
+            solpanel.BackColor = Color.LightGray; 
             üstpanel.BackColor = Color.LightGray; 
         }
 
         private void button25_Click(object sender, EventArgs e)
         {
-            button25.BackColor = Color.DimGray;
+            solpanel.BackColor = Color.DimGray;
             üstpanel.BackColor = Color.DimGray;
         }
 
@@ -109,13 +109,13 @@ namespace VeriTabanıProje
 
         private void button2_Click(object sender, EventArgs e)
         {
-            button2.BackColor = Color.LightGray;
+            solpanel.BackColor = Color.LightGray;
             üstpanel.BackColor = Color.LightGray;
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            button3.BackColor = Color.Gray;
+            solpanel.BackColor = Color.Gray;
             üstpanel.BackColor = Color.Gray;
         }
 
@@ -126,6 +126,42 @@ namespace VeriTabanıProje
         }
 
         private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void kösepanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            {
+                // Minimize Butonu
+                this.WindowState = FormWindowState.Minimized;
+            }
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            {
+                // Maximize Butonu
+                if (this.WindowState == FormWindowState.Maximized)
+                    this.WindowState = FormWindowState.Normal;
+
+                else
+                    this.WindowState = FormWindowState.Maximized;
+            }
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+            this.Close();
+        }
+
+        private void üstpanel_Paint(object sender, PaintEventArgs e)
         {
 
         }

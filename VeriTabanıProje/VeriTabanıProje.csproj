@@ -70,12 +70,6 @@
     <Compile Include="destek.Designer.cs">
       <DependentUpon>destek.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
     <Compile Include="hakkımızda.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -94,17 +88,17 @@
     <Compile Include="load.Designer.cs">
       <DependentUpon>load.cs</DependentUpon>
     </Compile>
-    <Compile Include="müsteri.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="müsteri.Designer.cs">
-      <DependentUpon>müsteri.cs</DependentUpon>
-    </Compile>
     <Compile Include="müsterisifre.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="müsterisifre.Designer.cs">
       <DependentUpon>müsterisifre.cs</DependentUpon>
+    </Compile>
+    <Compile Include="personel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="personel.Designer.cs">
+      <DependentUpon>personel.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -138,9 +132,6 @@
     <EmbeddedResource Include="destek.resx">
       <DependentUpon>destek.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="hakkımızda.resx">
       <DependentUpon>hakkımızda.cs</DependentUpon>
     </EmbeddedResource>
@@ -150,11 +141,11 @@
     <EmbeddedResource Include="load.resx">
       <DependentUpon>load.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="müsteri.resx">
-      <DependentUpon>müsteri.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="müsterisifre.resx">
       <DependentUpon>müsterisifre.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="personel.resx">
+      <DependentUpon>personel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

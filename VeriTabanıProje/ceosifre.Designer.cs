@@ -31,10 +31,10 @@ namespace VeriTabanıProje
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.ceoad = new System.Windows.Forms.TextBox();
+            this.ceosif = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -57,19 +57,19 @@ namespace VeriTabanıProje
             this.label2.TabIndex = 1;
             this.label2.Text = "Şifre :";
             // 
-            // textBox1
+            // ceoad
             // 
-            this.textBox1.Location = new System.Drawing.Point(82, 24);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(146, 22);
-            this.textBox1.TabIndex = 2;
+            this.ceoad.Location = new System.Drawing.Point(82, 24);
+            this.ceoad.Name = "ceoad";
+            this.ceoad.Size = new System.Drawing.Size(146, 22);
+            this.ceoad.TabIndex = 2;
             // 
-            // textBox2
+            // ceosif
             // 
-            this.textBox2.Location = new System.Drawing.Point(82, 58);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(146, 22);
-            this.textBox2.TabIndex = 3;
+            this.ceosif.Location = new System.Drawing.Point(82, 58);
+            this.ceosif.Name = "ceosif";
+            this.ceosif.Size = new System.Drawing.Size(146, 22);
+            this.ceosif.TabIndex = 3;
             // 
             // button1
             // 
@@ -83,17 +83,16 @@ namespace VeriTabanıProje
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button2
+            // label3
             // 
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button2.Location = new System.Drawing.Point(12, 89);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 31);
-            this.button2.TabIndex = 11;
-            this.button2.Text = "Çıkış";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.label3.AutoSize = true;
+            this.label3.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label3.Location = new System.Drawing.Point(238, -2);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(17, 17);
+            this.label3.TabIndex = 12;
+            this.label3.Text = "X";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // ceosifre
             // 
@@ -101,15 +100,16 @@ namespace VeriTabanıProje
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.ClientSize = new System.Drawing.Size(257, 124);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.ceosif);
+            this.Controls.Add(this.ceoad);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ceosifre";
             this.Text = "ceosifre";
+            this.Load += new System.EventHandler(this.ceosifre_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -119,9 +119,9 @@ namespace VeriTabanıProje
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox ceoad;
+        private System.Windows.Forms.TextBox ceosif;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Label label3;
     }
 }

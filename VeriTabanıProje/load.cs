@@ -19,7 +19,6 @@ namespace VeriTabanıProje
         
         private void load_Load(object sender, EventArgs e)
         {
-            // GÖREBİLİYOR MUSUN
             timer1.Start();
         }
         int sayac = 0;
@@ -31,7 +30,7 @@ namespace VeriTabanıProje
                 MessageBox.Show("Süreniz Doldu !", "BİTTİ !", MessageBoxButtons.OK, MessageBoxIcon.Information);               
                 this.Close();
                 Application.Exit();
-                //Ömercan Durmaz
+               
             }
             cubuk.Value = sayac;
             sayac++;
